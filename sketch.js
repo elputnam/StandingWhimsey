@@ -62,10 +62,6 @@ class TimeCone{
     this.lifespan -= random(1,3);
   }
   display(){
-    push();
-    
-    //rotate(this.spin + c);
-    
     fill(this.col, random(100), random(100), 70);
     beginShape();
     vertex(this.loc.x, this.loc.y);
